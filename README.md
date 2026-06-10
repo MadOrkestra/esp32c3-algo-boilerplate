@@ -14,6 +14,18 @@ After WiFi connects, a dedicated task talks to algod in three stages:
 - Cursor/VS Code with extensions: **PlatformIO IDE**, **clangd**
 - Python 3 (optional, for host helper scripts)
 
+## Hardware
+
+This project targets the **ESP32-C3 Super Mini** (USB-C, onboard LED on GPIO 8, WiFi). PlatformIO uses the `esp32-c3-devkitm-1` board profile, which matches the Super Mini pinout.
+
+| Store | Link |
+|-------|------|
+| AliExpress | [ESP32-C3 Super Mini](https://s.click.aliexpress.com/e/_c3iekZAd) |
+| Amazon US | [ESP32-C3 Super Mini](https://amzn.to/49V8xgT) |
+| Amazon Germany | [ESP32-C3 Super Mini](https://amzn.to/4sv2isB) |
+
+You need a USB data cable for flashing and serial monitoring over the built-in USB Serial/JTAG interface.
+
 ## Setup
 
 ### 1. WiFi credentials
