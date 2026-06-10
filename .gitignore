@@ -1,0 +1,17 @@
+.pio/
+build/
+.cache/
+
+# ESP-IDF sdkconfig (generated); keep only defaults
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+
+# IDE / tooling (generated)
+compile_commands.json
+.vscode/c_cpp_properties.json
+.vscode/.browse.c_cpp.db*
+.vscode/ipch
+
+# Secrets
+wifi_credentials.h

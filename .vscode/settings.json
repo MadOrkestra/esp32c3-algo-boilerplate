@@ -1,0 +1,15 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.suggestSnippets": false,
+  "C_Cpp.enhancedColorization": "disabled",
+  "C_Cpp.configurationProvider": "",
+  "C_Cpp.default.compileCommands": "",
+
+  "clangd.arguments": [
+    "--query-driver=**/*riscv32-esp-elf-*"
+  ],
+
+  "platformio-ide.autoRebuildAutocompleteIndex": false
+}

@@ -1,0 +1,11 @@
+CompileFlags:
+  CompilationDatabase: .
+  Remove:
+    - -fno-tree-switch-conversion
+    - -fno-shrink-wrap
+    - -fstrict-volatile-bitfields
+    - -fno-jump-tables
+    - -mlongcalls
+  Add:
+    - -std=gnu++2b
+    - -Iinclude
