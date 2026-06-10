@@ -6,10 +6,10 @@
   "C_Cpp.enhancedColorization": "disabled",
   "C_Cpp.configurationProvider": "",
   "C_Cpp.default.compileCommands": "",
+  "editor.indentSize": "tabSize",
+  "editor.stickyScroll.defaultModel": "outlineModel",
 
-  "clangd.arguments": [
-    "--query-driver=**/*riscv32-esp-elf-*"
-  ],
+  "clangd.arguments": ["--query-driver=**/*riscv32-esp-elf-*"],
 
   "platformio-ide.autoRebuildAutocompleteIndex": false
 }
