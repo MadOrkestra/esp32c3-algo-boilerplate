@@ -169,3 +169,7 @@ open-api-specs/             Algod OpenAPI spec (reference)
 | Connected    | Solid on                         |
 | Connecting   | 400 ms blink                     |
 | Disconnected | 3 blinks, pause, repeat          |
+
+## Disclaimer
+
+This project is **work in progress** and intended for **education and experimentation only**. It is not audited, not hardened for security, and **not suitable for production use**. Do not use it to safeguard real funds, private keys, or any application where failure or compromise would cause loss or harm.
