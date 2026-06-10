@@ -1,3 +1,5 @@
+// Station-mode WiFi with auto-reconnect, hard-failure detection, and GPIO 8 LED.
+
 #include "wifi_manager.h"
 
 #include "wifi_config.h"
@@ -136,6 +138,7 @@ void updateStatusLed() {
   }
 }
 
+// Auth / AP-not-found failures won't self-heal; show the disconnected LED pattern.
 bool isHardFailureReason(uint8_t reason) {
   return reason == WIFI_REASON_AUTH_FAIL ||
          reason == WIFI_REASON_NO_AP_FOUND ||
